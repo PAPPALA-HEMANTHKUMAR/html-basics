@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media Integration Example</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f4f5;
+      margin: 40px;
+    }
+    h1, h2 {
+      color: #2e4053;
+    }
+    .media-section {
+      margin-top: 30px;
+    }
+    img {
+      width: 400px;
+      height: auto;
+      border: 2px solid #ccc;
+      margin-bottom: 20px;
+    }
+    iframe {
+      border: none;
+    }
+    .video-wrapper {
+      aspect-ratio: 16/9;
+      width: 560px;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to the Media Gallery</h1>
+  <p>This page demonstrates how to use images, videos, and embedded content using HTML5 elements.</p>
+
+  <div class="media-section">
+    <h2>📷 Image Example</h2>
+    <img src="college-campus.jpg" alt="College Campus">
+  </div>
+
+  <div class="media-section">
+    <h2>📺 YouTube Video</h2>
+    <div class="video-wrapper">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="YouTube video player"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <div class="media-section">
+    <h2>🌐 Embedded Webpage (iFrame)</h2>
+    <iframe src="https://www.wikipedia.org" width="800" height="400"></iframe>
+  </div>
+
+</body>
+</html>
